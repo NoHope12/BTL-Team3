@@ -4,7 +4,7 @@
 		$view=$_GET['view'];
 		switch ($view) {
 			case 'quanlychuyenphong':
-				?><h4>Quản Lý Đăng Ký chuyển Phòng -> Xử Lý Đăng Ký </h4><hr> <?php 
+				?><h4>Quản Lý Đăng Ký chuyển Phòng -> Xử Lý Đăng Ký phòng </h4><hr> <?php 
 					include_once('quanlychuyenphong/danhsachdangky.php'); 	
 				break;
 			case 'chitietdangky':
